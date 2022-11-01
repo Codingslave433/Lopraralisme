@@ -1,0 +1,47 @@
+*::before , *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel_slider_haut , .carousel_slider_bas{
+  display: flex;
+  
+}
+
+.slider_gauche{
+  margin: 1rem 36rem 1rem 1rem ;
+  background-color: gray;
+  padding: 1rem 1rem 1rem 1rem ;
+  border : none ;
+  font-weight: bold;
+
+}
+
+.slider_droite{
+  margin: 1rem 1rem 1rem 36rem ;
+  background-color: gray;
+  padding: 1rem 1rem 1rem 1rem ;
+  border : none ;
+  font-weight: bold;
+}
+
+.carousel_content{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel_slider{
+  display: flex;
+
+}
+
+ul{
+  list-style-type: none;
+}
